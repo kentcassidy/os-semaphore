@@ -1,9 +1,9 @@
 Authors: Kent Cassidy, Bradley Manzo
 Date: November 3, 2022
 
-#Report 1
+# Assignment Report
 
-##Phase 1: Queue API
+## Phase 1: Queue API
 
      The queue is required to be FIFO, and (almost) all operations must be O(1).
 Based on this requirement, we decided to use a linked list, where the data
@@ -26,7 +26,7 @@ having to recompile every object file upon every single modification. Some rules
 that we added include a generic rule for compiling .c files into .o files by
 implementing a generic list of targets and objects.
 
-##Phase 2: Uthread API
+## Phase 2: Uthread API
 
     The next step to implementing the thread library is to create a structure in
 which to schedule and execute threads. This API greatly benefits from the above
@@ -62,7 +62,7 @@ queue. However we settled on having current_thread exist outside as a global
 pointer in order to preserve the integrity of the library and to minimize
 potential errors involved with such a system.
 
-##Phase 3: Semaphore API
+## Phase 3: Semaphore API
 
    Initially, our semaphore structure contained solely an unsigned int. This was
 to represent the amount of available resources in any given semaphore, which

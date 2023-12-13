@@ -1,7 +1,7 @@
 Authors: Kent Cassidy, Bradley Manzo
 Date: November 3, 2022
 
-# Report 2
+# Assignment Report
     
 In order to implement a user-level thread library for linux, we must
 first construct a queue ADT to store threads in, develop a set of functions to

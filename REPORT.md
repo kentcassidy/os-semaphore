@@ -125,5 +125,5 @@ understanding of linked lists, while building a greater understanding of
 concepts like user-level threads and semaphores. In addition we learned how
 static libraries can be compiled using intelligently designed makefiles.
 While our preempt.c may not work, we believe that we understand the
-importance of such a system on any thread scheduling system and after working
-it out on paper, we still believe that our implementation could've worked.
+importance of such a system on any thread scheduling system. After working
+it out on paper, we still believe that our design for preempt could work given more time into implementation.
